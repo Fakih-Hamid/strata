@@ -184,7 +184,7 @@ flowchart TD
 
 <sub>¹ Typical real-world CVSS 3.1 base score for the bug class — the number a report gets, shown next to the number of lines that fix it.</sub>
 
-Plus a growing shelf of **community labs** in [`labs/`](labs/): `open-redirect` (the annotated reference), `xss-waf-plus`, `ssti-jinja` (SSTI → RCE), and `blind-sqli` (boolean-oracle extraction).
+Plus a growing shelf of **community labs** in [`labs/`](labs/): `open-redirect` (the annotated reference), `xss-waf-plus`, `ssti-jinja` (SSTI → RCE), `blind-sqli` (boolean-oracle extraction), and `prototype-pollution` (a deep merge that writes to every object).
 
 ---
 

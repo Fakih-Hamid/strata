@@ -33,6 +33,14 @@
       "title": "Blind SQL injection in a gift-card lookup",
       "difficulty": "Practitioner",
       "blurb": "The page tells you one bit — found or not — and you read a password out of it, one character per request. Ships with a defender edition."
+    },
+    {
+      "id": "prototype-pollution",
+      "file": "prototype-pollution.lab.js",
+      "sha256": "76a41e9175f8ccc6ddba50382e8b31063b348f6d2a2d10b25013b9647b1a001f",
+      "title": "A preferences merge that writes to every object in the app",
+      "difficulty": "Practitioner",
+      "blurb": "A deep merge walks your JSON into a fresh object — but __proto__ isn't a slot, it's what every object inherits. Blocking that one word falls to constructor.prototype. Ships with a defender edition."
     }
   ]
 }
